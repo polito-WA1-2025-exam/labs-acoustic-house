@@ -1,9 +1,10 @@
 # Group "GROUP NAME"
 
 ## Members
-- s123456 LASTNAME FIRSTNAME
-- s123456 LASTNAME FIRSTNAME
-- s123456 LASTNAME FIRSTNAME
+- s346706 De Dominicis Francesco Pio
+- s344947 Pantani Pietro
+- s347666 Colopi Mauro
+- s344969 Iantosca Lorenzo
 
 # Exercise "NAME OF EXERCISE"
 
