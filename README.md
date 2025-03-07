@@ -5,6 +5,7 @@
 - s344947 Pantani Pietro
 - s347666 Colopi Mauro
 - s344969 Iantosca Lorenzo
+- s341882 Pagano Mariano Michele
 
 # Exercise "Meme Game"
 
