@@ -1,4 +1,4 @@
-# Group "GROUP NAME"
+# Group "Acoustic House"
 
 ## Members
 - s346706 De Dominicis Francesco Pio
@@ -6,7 +6,7 @@
 - s347666 Colopi Mauro
 - s344969 Iantosca Lorenzo
 
-# Exercise "NAME OF EXERCISE"
+# Exercise "Meme Game"
 
 # Lab Journal
 
