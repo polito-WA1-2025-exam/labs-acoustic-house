@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "readline-sync": "^1.4.10",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
