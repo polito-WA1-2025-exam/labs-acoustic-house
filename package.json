@@ -1,0 +1,14 @@
+{
+  "name": "memegame",
+  "version": "1.0.0",
+  "description": "## Members - s346706 De Dominicis Francesco Pio - s344947 Pantani Pietro - s347666 Colopi Mauro - s344969 Iantosca Lorenzo",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
