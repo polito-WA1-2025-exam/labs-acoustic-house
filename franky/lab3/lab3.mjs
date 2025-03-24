@@ -2,8 +2,8 @@ import readlineSync from 'readline-sync';
 import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
 
-// const ip_address = 'http://localhost:3000/';
-const ip_address = 'http://192.168.1.165:3001/';
+const ip_address = 'http://localhost:3000/';
+// const ip_address = 'http://192.168.1.165:3001/';
 
 class Caption {
     constructor(id, text) {
