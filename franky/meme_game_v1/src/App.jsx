@@ -49,7 +49,7 @@ function App() {
       );
 
       setUsers(retrievedUsers);
-      return retrievedUsers; // 👈 return aggiunto
+      return retrievedUsers; // ritorna gli utenti recuperati
     } catch (error) {
       console.error("Query problems", error);
       return []; // fallback anche in caso di errore generale
@@ -95,7 +95,10 @@ function App() {
           element={<LoginPage users={users} retrieveUsers={retrieveUsers} />}
         />
         <Route path="/game" element={<GamePage images={images} />} />
-        <Route path="/gameover" element={<GameOverPage />} />
+        <Route
+          path="/gameover"
+          element={<GameOverPage retrieveImages={retrieveImages} />}
+        />
       </Routes>
     </Router>
   );

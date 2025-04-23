@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import SnackBar from "./utils/SnackBar";
 import TextButton from "./utils/TextButton";
 
-const GameOverPage = () => {
+const GameOverPage = ({ retrieveImages }) => {
   const navigate = useNavigate();
   const ip_address = "http://localhost:3000/";
   const location = useLocation();
@@ -89,7 +89,8 @@ const GameOverPage = () => {
       <TextButton
         text="New Game"
         variant={"success"}
-        onClick={() => {
+        onClick={async () => {
+          await retrieveImages();
           navigate("/game", {
             state: { user: user },
           });
