@@ -1,0 +1,35 @@
+// src/styles/SearchBar.scss
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .search-input:focus {
+    border-color: #3300ff;  // Custom primary color
+    box-shadow: 0 0 5px rgba(51, 0, 255, 0.2);
+  }
+  
+  .search-button:hover {
+    background-color: #5024ff;  // Secondary color
+  }
+  

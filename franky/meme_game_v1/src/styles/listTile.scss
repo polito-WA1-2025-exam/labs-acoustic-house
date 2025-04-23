@@ -1,0 +1,50 @@
+.list-tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border: 2px solid transparent; // aumentato per effetto colore
+  border-radius: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+
+  &.correct {
+    border-color: #4caf50; // verde
+    background-color: #a8d9aa;
+  }
+
+  &.wrong {
+    border-color: #f44336; // rosso
+    background-color: #f09791;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .list-tile-content {
+    flex-grow: 1;
+  }
+
+  .list-tile-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .list-tile-subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    margin: 0;
+  }
+
+  .list-tile-action {
+    display: flex;
+    align-items: center;
+  }
+}
