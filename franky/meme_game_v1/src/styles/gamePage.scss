@@ -1,0 +1,19 @@
+.game-content {
+  display: flex;
+  justify-content: center;
+  align-items: center; // aligns centers of image and caption-list
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.caption-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // ensures vertical center alignment inside its container
+  gap: 1rem;
+}

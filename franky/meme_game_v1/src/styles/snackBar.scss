@@ -1,0 +1,59 @@
+.snackbar {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border-radius: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  opacity: 1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 90%;
+  text-align: center;
+  line-height: 1.4;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.snackbar.success {
+  background-color: #3300ff; 
+}
+
+.snackbar.error {
+  background-color: #f44336; 
+}
+
+.fade-in {
+  animation: fadein 0.4s ease-out forwards;
+}
+
+.fade-out {
+  animation: fadeout 0.4s ease-in forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    bottom: 20px;
+  }
+  to {
+    opacity: 1;
+    bottom: 30px;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+    bottom: 30px;
+  }
+  to {
+    opacity: 0;
+    bottom: 20px;
+  }
+}

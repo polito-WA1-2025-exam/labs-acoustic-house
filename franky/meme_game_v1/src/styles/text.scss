@@ -1,0 +1,43 @@
+// Override variables *before* importing Bootstrap
+$primary: #3300ff;   // Custom primary color
+$secondary: #00aaff; // Custom secondary color
+
+// Define font size variables (modify as needed)
+$font-size-title: 4rem;    // Title size (32px)
+$font-size-subtitle: 2rem; // Subtitle size (24px)
+$font-size-body: 1rem;     // Body text size (16px)
+
+// Define font weight variables
+$font-weight-title: bold;
+$font-weight-subtitle: semi-bold;
+$font-weight-body: normal;
+
+// Define line-height for readability
+$line-height-title: 1.2;
+$line-height-subtitle: 1.3;
+$line-height-body: 1.5;
+
+// Apply these variables to Bootstrap (custom styles)
+@import "bootstrap/scss/bootstrap";
+
+// Custom title, subtitle, and body styles
+.title {
+  font-size: $font-size-title;
+  font-weight: $font-weight-title;
+  line-height: $line-height-title;
+  color: $primary;
+}
+
+.subtitle {
+  font-size: $font-size-subtitle;
+  font-weight: $font-weight-subtitle;
+  line-height: $line-height-subtitle;
+  color: $secondary;
+}
+
+.body-text {
+  font-size: $font-size-body;
+  font-weight: $font-weight-body;
+  line-height: $line-height-body;
+  color: #333; // Default body text color (dark)
+}

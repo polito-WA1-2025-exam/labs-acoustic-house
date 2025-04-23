@@ -67,7 +67,7 @@ app.get('/images/:id', async (req, res) => {
             return res.status(404).json({ error: "Image not found" });
         }
 
-        const image = {
+        const meme = {
             image_id: rows[0].image_id,
             name: rows[0].name,
             path: rows[0].path,
@@ -77,7 +77,7 @@ app.get('/images/:id', async (req, res) => {
             }))
         };
 
-        res.json(image);
+        res.json(meme);
         
     } catch (error) {
         console.error("Query problems:", error);
